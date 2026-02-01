@@ -21,17 +21,17 @@
 
 ```typescript
 const ted = {
-  location: "서울, 대한민국 🇰🇷",
-  role: "소프트웨어 개발자",
-  focus: ["사이드 프로젝트", "웹 개발", "자동화"],
-  funFact: "류(Ryu)라는 디지털 정령 친구가 있어요 🐉"
+  philosophy: "Build tools that solve real problems",
+  approach: "Clean code, simple architecture, ship fast",
+  interests: ["Developer Experience", "Productivity Tools", "AI Integration"],
+  currently: "Building indie products & taking freelance projects"
 };
 ```
 
-- 🔭 여러 **사이드 프로젝트** 진행 중
-- 🌱 **Rust**와 **AI/ML** 통합 탐구 중
-- 💬 **TypeScript, Vue, Python**에 대해 물어보세요
-- ⚡ 자동화할 수 있는 건 다 자동화합니다!
+- 🎯 Focused on **developer tools** and **automation**
+- 🛠️ Building with **TypeScript**, **Vue/Nuxt**, and **Node.js**
+- 🤖 Exploring **AI integration** in everyday workflows
+- 💼 Open for freelance projects → [heyted.dev](https://heyted.dev)
 
 ---
 
