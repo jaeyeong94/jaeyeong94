@@ -35,29 +35,29 @@ const ted = {
 
 ---
 
-## 🛠️ 기술 스택
+## 🛠️ Tech Stack
 
 <p align="center">
   
-### 언어
+### Languages
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-### 프론트엔드
+### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 백엔드 & 데이터베이스
+### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### 도구 & 플랫폼
+### Tools & Platforms
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -67,7 +67,7 @@ const ted = {
 
 ---
 
-## 📊 GitHub 통계
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
@@ -81,7 +81,7 @@ const ted = {
 
 ---
 
-## 🏆 GitHub 트로피
+## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-trophies.vercel.app/?username=jaeyeong94&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15"/>
@@ -89,7 +89,7 @@ const ted = {
 
 ---
 
-## 🚀 주요 프로젝트
+## 🚀 Featured Projects
 
 | 프로젝트 | 기술 | 설명 |
 |---------|------|------|
@@ -99,7 +99,7 @@ const ted = {
 
 ---
 
-## 📈 기여 그래프
+## 📈 Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaeyeong94/jaeyeong94/output/github-contribution-grid-snake-dark.svg"/>
@@ -109,7 +109,7 @@ const ted = {
 
 ---
 
-## 📫 연락처
+## 📫 Connect with Me
 
 <p align="center">
   <a href="https://heyted.dev">

@@ -26,15 +26,15 @@ jobs:
             --jq "[.[] | select(.isPrivate == false and .name != \"$OWNER\")] | sort_by(.pushedAt) | reverse | .[0:3]")
           
           # 임시 파일에 테이블 작성
-          echo "## 🚀 주요 프로젝트" > /tmp/featured.md
+          echo "## 🚀 Featured Projects" > /tmp/featured.md
           echo "" >> /tmp/featured.md
-          echo "| 프로젝트 | 기술 | 설명 |" >> /tmp/featured.md
+          echo "| Project | Tech | Description |" >> /tmp/featured.md
           echo "|---------|------|------|" >> /tmp/featured.md
           
           echo "$repos_json" | jq -c '.[]' | while read -r repo; do
             name=$(echo "$repo" | jq -r '.name')
             lang=$(echo "$repo" | jq -r '.primaryLanguage.name // "Code"')
-            desc=$(echo "$repo" | jq -r '.description // "설명 없음"')
+            desc=$(echo "$repo" | jq -r '.description // "No description"')
             
             # 언어별 배지
             case "$lang" in
@@ -54,7 +54,7 @@ jobs:
           
           # README에서 Featured Projects 섹션 교체
           awk '
-            /^## 🚀 주요 프로젝트/ { skip = 1; next }
+            /^## 🚀 Featured Projects/ { skip = 1; next }
             /^---$/ && skip { skip = 0; next }
             /^## / && skip { skip = 0 }
             !skip { print }
@@ -62,7 +62,7 @@ jobs:
           
           # 섹션 삽입 위치 찾기 (기여 그래프 전)
           awk '
-            /^## 📈 기여 그래프/ {
+            /^## 📈 Contribution Graph/ {
               system("cat /tmp/featured.md")
               print ""
               print "---"
@@ -76,5 +76,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "🔄 주요 프로젝트 업데이트"
+          git diff --staged --quiet || git commit -m "🔄 Update featured projects"
           git push
