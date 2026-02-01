@@ -93,13 +93,13 @@ const ted = {
 
 <p align="center">
   <a href="https://github.com/jaeyeong94/mcp-monitor">
-    <img height="120" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
   </a>
   <a href="https://github.com/jaeyeong94/claude-plugins-official">
-    <img height="120" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=claude-plugins-official&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=claude-plugins-official&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
   </a>
   <a href="https://github.com/jaeyeong94/blog">
-    <img height="120" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=blog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=blog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
   </a>
 </p>
 ---
