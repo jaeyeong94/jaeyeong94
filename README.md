@@ -113,11 +113,11 @@ const ted = {
 
 ## 🚀 Featured Projects
 
-| 프로젝트 | 기술 | 설명 |
-|---------|------|------|
-| [mcp-monitor](https://github.com/jaeyeong94/mcp-monitor) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP 서버 모니터링 도구 |
-| [claude-plugins-official](https://github.com/jaeyeong94/claude-plugins-official) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Anthropic의 Claude Code 플러그인 디렉토리 |
-| [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) | 개인 블로그 |
+| Project | Tech | Description |
+|---------|------|-------------|
+| [mcp-monitor](https://github.com/jaeyeong94/mcp-monitor) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP server monitoring tool |
+| [claude-plugins-official](https://github.com/jaeyeong94/claude-plugins-official) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Anthropic's Claude Code Plugins directory |
+| [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) | Personal blog |
 
 ---
 
