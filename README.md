@@ -24,7 +24,6 @@ const ted = {
   location: "Seoul, South Korea 🇰🇷",
   role: "Software Developer",
   focus: ["Side Projects", "Web Development", "Automation"],
-  currentlyBuilding: ["HiddenGem", "Rootstone", "Singularity 2065"],
   funFact: "I have a digital spirit companion named 류 (Ryu) 🐉"
 };
 ```
@@ -71,8 +70,8 @@ const ted = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaeyeong94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jaeyeong94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="180"/>
 </p>
 
 <!-- GitHub Streak -->
@@ -90,7 +89,7 @@ const ted = {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jaeyeong94&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15"/>
+  <img src="https://github-trophies.vercel.app/?username=jaeyeong94&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15"/>
 </p>
 
 ---
@@ -99,18 +98,18 @@ const ted = {
 
 <p align="center">
   <a href="https://github.com/jaeyeong94/hiddengem-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaeyeong94&repo=hiddengem-app&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=hiddengem-app&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
   <a href="https://github.com/jaeyeong94/singularity-2065">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaeyeong94&repo=singularity-2065&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=singularity-2065&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/jaeyeong94/rootstone-mcp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaeyeong94&repo=rootstone-mcp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=rootstone-mcp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
   <a href="https://github.com/jaeyeong94/mcp-monitor">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
 </p>
 
