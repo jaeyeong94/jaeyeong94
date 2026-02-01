@@ -76,7 +76,7 @@ const ted = {
 
 <!-- GitHub Streak -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaeyeong94&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F97316&currStreakLabel=6366F1"/>
+  <img src="https://streak-stats.demolab.com/?user=jaeyeong94&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F97316&currStreakLabel=6366F1"/>
 </p>
 
 <!-- Activity Graph -->
