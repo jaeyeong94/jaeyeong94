@@ -41,7 +41,7 @@ jobs:
           
           for repo in $REPOS; do
             FEATURED="$FEATURED\n  <a href=\"https://github.com/$OWNER/$repo\">"
-            FEATURED="$FEATURED\n    <img src=\"https://github-readme-stats-one-bice.vercel.app/api/pin/?username=$OWNER&repo=$repo&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1\"/>"
+            FEATURED="$FEATURED\n    <img src=\"https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=$OWNER&repo=$repo&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1\"/>"
             FEATURED="$FEATURED\n  </a>"
           done
           

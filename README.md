@@ -70,8 +70,8 @@ const ted = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=jaeyeong94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jaeyeong94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="180"/>
 </p>
 
 <!-- Activity Graph -->
@@ -93,13 +93,13 @@ const ted = {
 
 <p align="center">
   <a href="https://github.com/jaeyeong94/mcp-monitor">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
   <a href="https://github.com/jaeyeong94/claude-plugins-official">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=jaeyeong94&repo=claude-plugins-official&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=claude-plugins-official&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
   <a href="https://github.com/jaeyeong94/blog">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=jaeyeong94&repo=blog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=blog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
   </a>
 </p>
 ---
