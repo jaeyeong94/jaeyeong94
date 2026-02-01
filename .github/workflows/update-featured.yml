@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 1 * * *" # 매일 UTC 01:00 (한국시간 10:00)
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   update:
@@ -28,50 +25,56 @@ jobs:
             --json name,isPrivate,pushedAt,primaryLanguage,description \
             --jq "[.[] | select(.isPrivate == false and .name != \"$OWNER\")] | sort_by(.pushedAt) | reverse | .[0:3]")
           
-          # 언어별 배지 색상 매핑
-          get_badge() {
-            local lang="$1"
-            case "$lang" in
-              "TypeScript") echo "![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)" ;;
-              "JavaScript") echo "![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)" ;;
-              "Python") echo "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)" ;;
-              "Rust") echo "![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)" ;;
-              "Shell") echo "![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)" ;;
-              "Vue") echo "![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vue.js&logoColor=white)" ;;
-              "MDX") echo "![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white)" ;;
-              "Go") echo "![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)" ;;
-              *) echo "![Code](https://img.shields.io/badge/-Code-333333?style=flat-square&logo=github&logoColor=white)" ;;
-            esac
-          }
+          # 임시 파일에 테이블 작성
+          echo "## 🚀 주요 프로젝트" > /tmp/featured.md
+          echo "" >> /tmp/featured.md
+          echo "| 프로젝트 | 기술 | 설명 |" >> /tmp/featured.md
+          echo "|---------|------|------|" >> /tmp/featured.md
           
-          # 테이블 헤더
-          TABLE="## 🚀 Featured Projects\n\n| Project | Tech | Description |\n|---------|------|-------------|"
-          
-          # 각 리포 정보 추가
-          while IFS= read -r repo; do
+          echo "$repos_json" | jq -c '.[]' | while read -r repo; do
             name=$(echo "$repo" | jq -r '.name')
             lang=$(echo "$repo" | jq -r '.primaryLanguage.name // "Code"')
-            desc=$(echo "$repo" | jq -r '.description // "No description"')
-            badge=$(get_badge "$lang")
-            TABLE="$TABLE\n| [$name](https://github.com/$OWNER/$name) | $badge | $desc |"
-          done < <(echo "$repos_json" | jq -c '.[]')
+            desc=$(echo "$repo" | jq -r '.description // "설명 없음"')
+            
+            # 언어별 배지
+            case "$lang" in
+              "TypeScript") badge="![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)" ;;
+              "JavaScript") badge="![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)" ;;
+              "Python") badge="![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)" ;;
+              "Rust") badge="![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)" ;;
+              "Shell") badge="![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)" ;;
+              "Vue") badge="![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vue.js&logoColor=white)" ;;
+              "MDX") badge="![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white)" ;;
+              "Go") badge="![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)" ;;
+              *) badge="![Code](https://img.shields.io/badge/-Code-333333?style=flat-square&logo=github&logoColor=white)" ;;
+            esac
+            
+            echo "| [$name](https://github.com/$OWNER/$name) | $badge | $desc |" >> /tmp/featured.md
+          done
           
           # README에서 Featured Projects 섹션 교체
-          awk -v table="$TABLE" '
-            /^## 🚀 Featured Projects/ { 
-              printf "%b\n", table
-              skip = 1
-              next
-            }
-            /^---$/ && skip { skip = 0 }
+          awk '
+            /^## 🚀 주요 프로젝트/ { skip = 1; next }
+            /^---$/ && skip { skip = 0; next }
             /^## / && skip { skip = 0 }
             !skip { print }
-          ' README.md > README.tmp && mv README.tmp README.md
+          ' README.md > /tmp/readme_without_featured.md
+          
+          # 섹션 삽입 위치 찾기 (기여 그래프 전)
+          awk '
+            /^## 📈 기여 그래프/ {
+              system("cat /tmp/featured.md")
+              print ""
+              print "---"
+              print ""
+            }
+            { print }
+          ' /tmp/readme_without_featured.md > README.md
       
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "🔄 Update featured projects"
+          git diff --staged --quiet || git commit -m "🔄 주요 프로젝트 업데이트"
           git push

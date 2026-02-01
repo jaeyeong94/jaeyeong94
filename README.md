@@ -1,18 +1,18 @@
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ted%20Ryu&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Developer%20from%20Seoul%20🇰🇷&descSize=18&descAlignY=52"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ted%20Ryu&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=서울에서%20활동하는%20소프트웨어%20개발자%20🇰🇷&descSize=18&descAlignY=52"/>
 
 <!-- Typing SVG -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Building+Side+Projects+%F0%9F%9A%80;Always+Learning+New+Things+%F0%9F%8C%B1;Open+Source+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=풀스택+개발자+%F0%9F%92%BB;사이드+프로젝트+빌딩+중+%F0%9F%9A%80;항상+새로운+것을+배우는+중+%F0%9F%8C%B1;오픈소스+기여자+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Social Badges -->
 <p align="center">
-  <a href="https://heyted.dev"><img src="https://img.shields.io/badge/Blog-heyted.dev-FF5722?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+  <a href="https://heyted.dev"><img src="https://img.shields.io/badge/Homepage-heyted.dev-FF5722?style=for-the-badge&logo=safari&logoColor=white"/></a>
   <a href="https://github.com/jaeyeong94"><img src="https://img.shields.io/badge/GitHub-jaeyeong94-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=jaeyeong94&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+  <img src="https://komarev.com/ghpvc/?username=jaeyeong94&style=for-the-badge&color=blueviolet&label=방문자+수"/>
 </p>
 
 ---
@@ -21,43 +21,43 @@
 
 ```typescript
 const ted = {
-  location: "Seoul, South Korea 🇰🇷",
-  role: "Software Developer",
-  focus: ["Side Projects", "Web Development", "Automation"],
-  funFact: "I have a digital spirit companion named 류 (Ryu) 🐉"
+  location: "서울, 대한민국 🇰🇷",
+  role: "소프트웨어 개발자",
+  focus: ["사이드 프로젝트", "웹 개발", "자동화"],
+  funFact: "류(Ryu)라는 디지털 정령 친구가 있어요 🐉"
 };
 ```
 
-- 🔭 Currently working on multiple **side projects**
-- 🌱 Learning **Rust** and exploring **AI/ML** integrations
-- 💬 Ask me about **TypeScript, Vue, Python**
-- ⚡ Fun fact: I automate everything I can!
+- 🔭 여러 **사이드 프로젝트** 진행 중
+- 🌱 **Rust**와 **AI/ML** 통합 탐구 중
+- 💬 **TypeScript, Vue, Python**에 대해 물어보세요
+- ⚡ 자동화할 수 있는 건 다 자동화합니다!
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ 기술 스택
 
 <p align="center">
   
-### Languages
+### 언어
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-### Frontend
+### 프론트엔드
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Backend & Database
+### 백엔드 & 데이터베이스
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### Tools & Platforms
+### 도구 & 플랫폼
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -67,7 +67,7 @@ const ted = {
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub 통계
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jaeyeong94&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" height="180"/>
@@ -81,7 +81,7 @@ const ted = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub 트로피
 
 <p align="center">
   <img src="https://github-trophies.vercel.app/?username=jaeyeong94&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15"/>
@@ -89,10 +89,17 @@ const ted = {
 
 ---
 
-%b
+## 🚀 주요 프로젝트
+
+| 프로젝트 | 기술 | 설명 |
+|---------|------|------|
+| [mcp-monitor](https://github.com/jaeyeong94/mcp-monitor) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP 서버 모니터링 도구 |
+| [claude-plugins-official](https://github.com/jaeyeong94/claude-plugins-official) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Anthropic의 Claude Code 플러그인 디렉토리 |
+| [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) | 개인 블로그 |
+
 ---
 
-## 📈 Contribution Graph
+## 📈 기여 그래프
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaeyeong94/jaeyeong94/output/github-contribution-grid-snake-dark.svg"/>
@@ -102,11 +109,11 @@ const ted = {
 
 ---
 
-## 📫 Connect with Me
+## 📫 연락처
 
 <p align="center">
   <a href="https://heyted.dev">
-    <img src="https://img.shields.io/badge/Website-heyted.dev-6366F1?style=for-the-badge&logo=About.me&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Homepage-heyted.dev-6366F1?style=for-the-badge&logo=safari&logoColor=white"/>
   </a>
   <a href="https://x.com/ted_ryu_o">
     <img src="https://img.shields.io/badge/X-@ted__ryu__o-000000?style=for-the-badge&logo=x&logoColor=white"/>
