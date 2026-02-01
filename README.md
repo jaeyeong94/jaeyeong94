@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://heyted.dev"><img src="https://img.shields.io/badge/Homepage-heyted.dev-FF5722?style=for-the-badge&logo=safari&logoColor=white"/></a>
   <a href="https://github.com/jaeyeong94"><img src="https://img.shields.io/badge/GitHub-jaeyeong94-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=jaeyeong94&style=for-the-badge&color=blueviolet&label=방문자+수"/>
+  <img src="https://komarev.com/ghpvc/?username=jaeyeong94&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 </p>
 
 ---
