@@ -132,6 +132,9 @@ const ted = {
   <a href="https://heyted.dev">
     <img src="https://img.shields.io/badge/Website-heyted.dev-6366F1?style=for-the-badge&logo=About.me&logoColor=white"/>
   </a>
+  <a href="https://x.com/ted_ryu_o">
+    <img src="https://img.shields.io/badge/X-@ted__ryu__o-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
   <a href="https://www.linkedin.com/in/ted-ryu/">
     <img src="https://img.shields.io/badge/LinkedIn-ted--ryu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
