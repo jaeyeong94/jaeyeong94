@@ -17,40 +17,49 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Get recent public repos
-        id: repos
+      - name: Update README with featured projects
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 최근 push된 public 리포 3개 가져오기 (프로필 리포 제외)
-          repos=$(gh repo list ${{ github.repository_owner }} \
-            --json name,isPrivate,pushedAt \
-            --jq '[.[] | select(.isPrivate == false and .name != "${{ github.repository_owner }}")] | sort_by(.pushedAt) | reverse | .[0:3] | .[].name')
-          
-          echo "repos<<EOF" >> $GITHUB_OUTPUT
-          echo "$repos" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-      
-      - name: Update README
-        run: |
-          REPOS="${{ steps.repos.outputs.repos }}"
           OWNER="${{ github.repository_owner }}"
           
-          # Featured Projects 섹션 생성
-          FEATURED="## 🚀 Featured Projects\n\n<p align=\"center\">"
+          # 최근 push된 public 리포 3개 가져오기 (프로필 리포 제외)
+          repos_json=$(gh repo list $OWNER \
+            --json name,isPrivate,pushedAt,primaryLanguage,description \
+            --jq "[.[] | select(.isPrivate == false and .name != \"$OWNER\")] | sort_by(.pushedAt) | reverse | .[0:3]")
           
-          for repo in $REPOS; do
-            FEATURED="$FEATURED\n  <a href=\"https://github.com/$OWNER/$repo\">"
-            FEATURED="$FEATURED\n    <img src=\"https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=$OWNER&repo=$repo&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false\"/>"
-            FEATURED="$FEATURED\n  </a>"
-          done
+          # 언어별 배지 색상 매핑
+          get_badge() {
+            local lang="$1"
+            case "$lang" in
+              "TypeScript") echo "![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)" ;;
+              "JavaScript") echo "![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)" ;;
+              "Python") echo "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)" ;;
+              "Rust") echo "![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)" ;;
+              "Shell") echo "![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)" ;;
+              "Vue") echo "![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vue.js&logoColor=white)" ;;
+              "MDX") echo "![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white)" ;;
+              "Go") echo "![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)" ;;
+              *) echo "![Code](https://img.shields.io/badge/-Code-333333?style=flat-square&logo=github&logoColor=white)" ;;
+            esac
+          }
           
-          FEATURED="$FEATURED\n</p>"
+          # 테이블 헤더
+          TABLE="## 🚀 Featured Projects\n\n| Project | Tech | Description |\n|---------|------|-------------|"
+          
+          # 각 리포 정보 추가
+          while IFS= read -r repo; do
+            name=$(echo "$repo" | jq -r '.name')
+            lang=$(echo "$repo" | jq -r '.primaryLanguage.name // "Code"')
+            desc=$(echo "$repo" | jq -r '.description // "No description"')
+            badge=$(get_badge "$lang")
+            TABLE="$TABLE\n| [$name](https://github.com/$OWNER/$name) | $badge | $desc |"
+          done < <(echo "$repos_json" | jq -c '.[]')
           
           # README에서 Featured Projects 섹션 교체
-          awk -v featured="$FEATURED" '
+          awk -v table="$TABLE" '
             /^## 🚀 Featured Projects/ { 
-              print featured
+              printf "%b\n", table
               skip = 1
               next
             }

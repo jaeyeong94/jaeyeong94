@@ -91,17 +91,11 @@ const ted = {
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/jaeyeong94/mcp-monitor">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=mcp-monitor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
-  </a>
-  <a href="https://github.com/jaeyeong94/claude-plugins-official">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=claude-plugins-official&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
-  </a>
-  <a href="https://github.com/jaeyeong94/blog">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=jaeyeong94&repo=blog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&show_description=false"/>
-  </a>
-</p>
+| Project | Tech | Description |
+|---------|------|-------------|
+| [mcp-monitor](https://github.com/jaeyeong94/mcp-monitor) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP server monitoring tool |
+| [claude-plugins-official](https://github.com/jaeyeong94/claude-plugins-official) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Anthropic's Claude Code Plugins directory |
+| [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) | Personal blog |
 ---
 
 ## 📈 Contribution Graph
