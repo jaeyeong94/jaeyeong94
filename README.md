@@ -74,11 +74,6 @@ const ted = {
   <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=jaeyeong94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" height="180"/>
 </p>
 
-<!-- GitHub Streak -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jaeyeong94&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F97316&currStreakLabel=6366F1"/>
-</p>
-
 <!-- Activity Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaeyeong94&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=FFFFFF"/>
