@@ -132,8 +132,11 @@ const ted = {
   <a href="https://heyted.dev">
     <img src="https://img.shields.io/badge/Website-heyted.dev-6366F1?style=for-the-badge&logo=About.me&logoColor=white"/>
   </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/ted-ryu/">
+    <img src="https://img.shields.io/badge/LinkedIn-ted--ryu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:fksak80@gmail.com">
+    <img src="https://img.shields.io/badge/Email-fksak80@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
