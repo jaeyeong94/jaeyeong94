@@ -121,6 +121,7 @@ const ted = {
 
 
 
+
 ## 🚀 Featured Projects
 
 | Project | Tech | Description |
