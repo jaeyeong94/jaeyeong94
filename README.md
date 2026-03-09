@@ -146,13 +146,14 @@ const ted = {
 
 
 
+
 ## 🚀 Featured Projects
 
 | Project | Tech | Description |
 |---------|------|------|
+| [starway](https://github.com/jaeyeong94/starway) | ![Code](https://img.shields.io/badge/-Code-333333?style=flat-square&logo=github&logoColor=white) |  |
 | [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) |  |
 | [mcp-monitor](https://github.com/jaeyeong94/mcp-monitor) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |  |
-| [claude-plugins-official](https://github.com/jaeyeong94/claude-plugins-official) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Anthropic-managed directory of high quality Claude Code Plugins. |
 
 ---
 
