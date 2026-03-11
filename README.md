@@ -148,12 +148,13 @@ const ted = {
 
 
 
+
 ## 🚀 Featured Projects
 
 | Project | Tech | Description |
 |---------|------|------|
-| [project-guard](https://github.com/jaeyeong94/project-guard) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Claude Code 플러그인 — 프로젝트 검증 워크플로우 자동화 (lint, test, type-check 하드 강제) |
 | [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) |  |
+| [project-guard](https://github.com/jaeyeong94/project-guard) | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) | Claude Code 플러그인 — 프로젝트 검증 워크플로우 자동화 (lint, test, type-check 하드 강제) |
 | [starway](https://github.com/jaeyeong94/starway) | ![Code](https://img.shields.io/badge/-Code-333333?style=flat-square&logo=github&logoColor=white) |  |
 
 ---
