@@ -183,13 +183,14 @@ const ted = {
 
 
 
+
 ## 🚀 Featured Projects
 
 | Project | Tech | Description |
 |---------|------|------|
+| [jaeyeong94.github.io](https://github.com/jaeyeong94/jaeyeong94.github.io) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Resume Site |
 | [blog](https://github.com/jaeyeong94/blog) | ![MDX](https://img.shields.io/badge/-MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white) |  |
 | [rootstone-dashboard](https://github.com/jaeyeong94/rootstone-dashboard) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |  |
-| [k-gun](https://github.com/jaeyeong94/k-gun) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |  |
 
 ---
 
