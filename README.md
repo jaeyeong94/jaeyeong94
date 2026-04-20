@@ -17,17 +17,23 @@
   </a>
 </p>
 
+<p align="center">
+  <strong>English</strong> · <a href="./README.ko.md">한국어</a>
+</p>
+
 ## Overview
 
-I build developer-facing products, internal tools, and automation systems that help teams move faster with less operational overhead.
+I build SaaS products, developer-facing tools, and AI orchestration systems that help teams ship faster with less operational overhead.
 
 Based in Seoul, South Korea, I work across product engineering, workflow design, and practical AI integration with a strong preference for simple architecture and clear delivery.
 
+Available for collaboration in English and Korean.
+
 ## What I Build
 
+- SaaS products and product workflows built for clarity, speed, and maintainability
 - Developer tools and internal platforms that reduce repetitive work
-- Product dashboards and front-end systems that are easier to operate and extend
-- Automation and AI-assisted workflows that fit real team processes
+- AI orchestration systems and automation workflows that fit real team processes
 
 ## How I Work
 
