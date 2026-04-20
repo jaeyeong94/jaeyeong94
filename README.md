@@ -1,7 +1,7 @@
 <!-- Header Banner -->
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ted%20Ryu&fontSize=42&fontColor=fff&fontAlignY=34&desc=Full-stack%20developer%20focused%20on%20tools,%20automation,%20and%20product%20workflows&descSize=16&descAlignY=56"
+  src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ted%20Ryu&fontSize=42&fontColor=fff&fontAlignY=34&desc=Full-stack%20developer%20focused%20on%20SaaS,%20AI%20orchestration,%20and%20backend%20architecture&descSize=16&descAlignY=56"
   alt="Ted Ryu banner"
 />
 
@@ -23,51 +23,53 @@
 
 ## Overview
 
-I build SaaS products, developer-facing tools, and AI orchestration systems that help teams ship faster with less operational overhead.
+Full-stack developer with 13+ years of hands-on experience building 0→1 products across fintech, blockchain, SaaS, and AI.
 
-Based in Seoul, South Korea, I work across product engineering, workflow design, and practical AI integration with a strong preference for simple architecture and clear delivery.
+I focus on backend architecture, cloud infrastructure, and AI orchestration systems that help teams ship real products with less complexity.
 
-Available for collaboration in English and Korean.
+Based in Seoul, South Korea. Available for collaboration in English and Korean.
+
+## At a Glance
+
+- 13+ years in product engineering and backend development
+- 6+ 0→1 services built across fintech, SaaS, blockchain, and AI
+- Strong in backend architecture, AWS/Kubernetes infrastructure, and delivery from prototype to production
+- Open to freelance product engineering work and select long-term opportunities
 
 ## What I Build
 
-- SaaS products and product workflows built for clarity, speed, and maintainability
-- Developer tools and internal platforms that reduce repetitive work
-- AI orchestration systems and automation workflows that fit real team processes
+- SaaS products and multi-tenant systems designed for clarity, speed, and maintainability
+- Developer tools and internal platforms that reduce repetitive work and improve operational visibility
+- AI orchestration systems, RAG workflows, and LLM-backed product features grounded in real business processes
 
-## How I Work
+## Signature Stack
 
-- Start with the actual bottleneck, not just the stack
-- Keep systems simple enough to maintain after the first release
-- Ship in clear increments so product and engineering teams can make decisions quickly
+- `Node.js · NestJS · TypeScript` for SaaS backends, fintech systems, and event-driven services
+- `AWS · Kubernetes · Terraform` for production infrastructure, repeatable delivery, and zero-downtime operations
+- `PostgreSQL · Redis · RabbitMQ` for schema design, caching, queues, and reliable read/write paths
+- `OpenAI · RAG · Vector DB` for retrieval systems and agent workflows with real operational constraints
 
 ## Selected Work
 
 - [jaeyeong94.github.io](https://github.com/jaeyeong94/jaeyeong94.github.io)  
-  Personal website and resume site that presents my background, work, and writing in a concise format.
+  Portfolio and resume site with multilingual content and a print-inspired layout for hiring and collaboration.
 - [blog](https://github.com/jaeyeong94/blog)  
-  Technical writing and notes covering engineering, product thinking, and day-to-day development workflows.
+  Writing on engineering workflows, multi-tenant SaaS design, and AI orchestration patterns.
 - [rootstone-dashboard](https://github.com/jaeyeong94/rootstone-dashboard)  
-  Dashboard-oriented product work focused on usability, maintainability, and clear information flow.
+  Dashboard-oriented product work focused on operational clarity, maintainability, and day-to-day usability.
 
-## Primary Stack
+## Current Focus
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+- AI orchestration for real business workflows
+- Multi-tenancy and backend architecture for SaaS products
+- Kubernetes-based delivery, observability, and event-driven systems
 
 ## Open To
 
-- Freelance product engineering work
-- Developer tooling and internal tool projects
-- Automation and AI feature integration
+- 0→1 MVP and SaaS product builds
+- Backend and platform work for fintech, internal systems, and AI features
+- Teams that need an engineer who can move from architecture to production release
 
 ## Contact
 
-If you are building a developer tool, internal workflow, or product feature and need an engineer who can take it from concept to a working release, reach out through [heyted.dev](https://heyted.dev) or [LinkedIn](https://www.linkedin.com/in/ted-ryu/).
+If you are building a SaaS product, internal workflow, or AI-powered feature and need an engineer who can design the system and ship the release, reach out through [heyted.dev](https://heyted.dev) or [LinkedIn](https://www.linkedin.com/in/ted-ryu/).
